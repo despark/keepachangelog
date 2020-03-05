@@ -1,0 +1,24 @@
+#!/usr/bin/env php
+
+<?php
+
+use App\Command\Release;
+use App\Service\ChangelogService;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Filesystem\Filesystem;
+
+if (!in_array(PHP_SAPI, ['cli', 'phpdbg', 'embed'], true)) {
+    echo 'Warning: The console should be invoked via the CLI version of PHP, not the '.PHP_SAPI.' SAPI'.PHP_EOL;
+}
+
+set_time_limit(0);
+
+require dirname(__DIR__).'/config/bootstrap.php';
+
+$application = new Application();
+$command = new Release();
+$command->setChangelogService(new ChangelogService());
+$command->setFilesystem(new Filesystem());
+$application->add($command);
+
+$application->run();

@@ -1,0 +1,30 @@
+{
+    "output": "keepachangelog.phar",
+    "main": "bin/keepachangelog",
+    "web": false,
+    "stub": true,
+    "directories": [
+        "src",
+        "vendor",
+        "config"
+    ],
+    "map": [
+        {
+            ".env.build": ".env"
+        }
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "exclude": [
+                "test",
+                "tests"
+            ],
+            "in": "vendor"
+        }
+    ],
+    "files": [
+        "README.md",
+        "CHANGELOG.md"
+    ]
+}

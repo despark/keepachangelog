@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/composer" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/../keepachangelog/vendor/symfony/phpunit-bridge" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
+</project>

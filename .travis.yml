@@ -1,0 +1,13 @@
+language: php
+php:
+    - '7.3'
+    - '7.4'
+cache:
+    directories:
+        - $HOME/.composer/cache/files
+install:
+    - composer install --prefer-dist
+    - curl -LSs https://box-project.github.io/box2/installer.php | php
+before_deploy:
+    - composer install --prefer-dist --no-dev --no-interaction
+    - php box.phar build
