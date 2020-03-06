@@ -67,8 +67,8 @@ class Release extends Command
 
         $outputChangelog = $input->getOption('out') ?? $changelogPath;
         $changelogContent = file_get_contents($changelogPath);
-        $newContent = $this->changelogService->release($changelogContent, $ver, $dateTime);
-        $this->filesystem->dumpFile($outputChangelog, $newContent);
+        $releasedChangelog = $this->changelogService->release($changelogContent, $ver, $dateTime);
+        $this->filesystem->dumpFile($outputChangelog, (string)$releasedChangelog);
         $output->writeln(sprintf('Changelog released at %s', realpath($outputChangelog)));
 
         return 0;

@@ -30,8 +30,8 @@ class ChangelogServiceTest extends TestCase
 
     public function testRelease()
     {
-        $content = $this->changelogService->release($this->changelog, '1.2.2', DateTime::createFromFormat('Y-m-d', '2020-03-21'));
+        $releasedChangelog = $this->changelogService->release($this->changelog, '1.2.2', DateTime::createFromFormat('Y-m-d', '2020-03-21'));
         $expected = file_get_contents(realpath(__DIR__.'/../resources/expected.md'));
-        $this->assertEquals($expected, $content);
+        $this->assertEquals($expected, (string)$releasedChangelog);
     }
 }

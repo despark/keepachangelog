@@ -1,7 +1,7 @@
 Keep a changelog release tool
 =============================
 
-[![Build Status](https://travis-ci.org/despark/keepachangelog-release.svg?branch=master)](https://travis-ci.org/despark/keepachangelog-release)
+[![Build Status](https://travis-ci.org/despark/keepachangelog.svg?branch=master)](https://travis-ci.org/despark/keepachangelog)
 
 Description:  Releases new changelog version at desired location
 ----------------------------------------------------------------
