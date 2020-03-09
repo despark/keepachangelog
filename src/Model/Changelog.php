@@ -66,6 +66,16 @@ class Changelog
         return new UndefinedSection();
     }
 
+    public function getReference(): ReferenceSection
+    {
+        foreach ($this->changelog->getVersions() as $version) {
+            if ($version instanceof ReferenceSection) {
+                return $version;
+            }
+        }
+        return new ReferenceSection();
+    }
+
     /**
      * Loads all sections from the changelog.
      * Currently simple markdown parsing
